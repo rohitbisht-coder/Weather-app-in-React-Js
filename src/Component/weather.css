@@ -1,0 +1,45 @@
+p{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    background: transparent;
+    z-index: 999;
+}
+
+span{
+    margin: 2px 9px;
+    z-index: 999;
+}
+
+h3{
+    margin: 0;
+}
+
+
+.Hover:hover{
+    color: #ffff;
+    font-weight: 600;
+}
+
+.material-symbols-outlined{
+    color:#ffff;
+}
+.material-symbols-outlined:hover{
+   
+    color: black;
+}
+
+@media (max-width: 330px) {
+  h1,p{
+    font-size: 17px;
+  }
+ h1{
+    display: flex;
+    justify-content: center;
+ }
+ h1 span{
+    margin: 0 9px;
+ }
+
+    }
